@@ -1,0 +1,24 @@
+{
+  "name": "pbierans/container",
+  "description": "Just another container implementation. Not PSR-14 compliant.",
+  "license": "private, do not use me in production context at all",
+  "authors": [
+    {
+      "name": "Patrick Bierans",
+      "email": "pbierans@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PatrickBierans\\Container\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  },
+  "suggest": {
+    "pbierans/container-integration": "If you want to integrate containers via magic methods."
+  }
+}
